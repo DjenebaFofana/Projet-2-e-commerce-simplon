@@ -23,6 +23,10 @@ header {
     height: 90vh;
 }
 
+header .logo {
+    margin-left: 250px;
+}
+
 nav {
     margin-top: 45px;
     width: 100%;
@@ -75,11 +79,11 @@ nav .fas {
 
 .acceuil {
     height: auto;
-    margin-top: 110px;
+    margin-top: 180px;
 }
 
 .left {
-    margin-right: 366px;
+    margin-right: 340px;
 }
 
 .right {
@@ -89,7 +93,8 @@ nav .fas {
 }
 
 .right img {
-    min-width: 1200px;
+    max-height: 430px;
+    width: 1200px;
 }
 
 .acceuil h1 {
@@ -107,5 +112,5 @@ nav .fas {
 }
 
 .acceuil p {
-    font-size: 36px;
+    font-size: 34px;
 }
