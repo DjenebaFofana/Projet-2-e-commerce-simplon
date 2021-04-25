@@ -65,12 +65,12 @@ nav .fas {
 }
 
 .acceuil {
-    height: 50vh;
+    height: auto;
     margin-top: 110px;
 }
 
 .left {
-    margin-left: 145px;
+    margin-right: 366px;
 }
 
 .right {
@@ -80,7 +80,7 @@ nav .fas {
 }
 
 .right img {
-    max-width: max-content;
+    min-width: 1200px;
 }
 
 .acceuil h1 {
