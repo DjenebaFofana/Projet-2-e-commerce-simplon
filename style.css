@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* SECTION 1 - CSS */
+
+header {
+    height: 90vh;
+}
+
+nav {
+    margin-top: 45px;
+    width: 100%;
+}
+
+nav #recherche {
+    height: 70px;
+    width: 515px;
+    border-style: 1px solid black;
+    outline-style: none;
+}
+
+nav .search {
+    height: 70px;
+    width: 85px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    outline-style: none;
+}
+
+nav .search:hover {
+    cursor: pointer;
+}
+
+nav .panier {
+    height: 70px;
+    width: 80px;
+    background-color: white;
+    border-style: none;
+    outline-style: none;
+}
+
+nav .panier:hover {
+    cursor: pointer;
+}
+
+nav .fas {
+    font-size: 50px;
+}
+
+.acceuil {
+    height: 50vh;
+    margin-top: 110px;
+}
+
+.left {
+    margin-left: 145px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.right img {
+    max-width: max-content;
+}
+
+.acceuil h1 {
+    font-weight: normal;
+    font-size: 72px;
+}
+
+.acceuil h1 span {
+    font-size: 144px;
+}
+
+.acceuil h1 span .ments {
+    font-size: 144px;
+    color: white;
+}
+
+.acceuil p {
+    font-size: 36px;
+}
