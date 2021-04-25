@@ -35,6 +35,15 @@ nav #recherche {
     outline-style: none;
 }
 
+nav #recherche::-webkit-search-cancel-button {
+    display: none;
+}
+
+header input {
+    padding-left: 18px;
+    font-size: 24px;
+}
+
 nav .search {
     height: 70px;
     width: 85px;
